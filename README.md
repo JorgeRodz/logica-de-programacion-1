@@ -1,0 +1,2 @@
+# logica-de-programacion-1
+Repositorio para la practica "35.4 - SA-PLD1 - Práctica de Comparación de Números"
