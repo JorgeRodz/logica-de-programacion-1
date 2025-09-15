@@ -1,0 +1,305 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="920pt" height="1055pt" viewBox="0.00 0.00 920.00 1055.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1050.7)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1050.7 916.14,-1050.7 916.14,4 -4,4"/>
+<!-- start -->
+<g id="node1" class="node">
+<title>start</title>
+<ellipse fill="none" stroke="black" cx="159.48" cy="-1028.7" rx="33.58" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="159.48" y="-1024.5" font-family="Helvetica,sans-Serif" font-size="14.00">Inicio</text>
+</g>
+<!-- input -->
+<g id="node2" class="node">
+<title>input</title>
+<polygon fill="none" stroke="black" points="255.21,-973.7 63.75,-973.7 63.75,-898.5 255.21,-898.5 255.21,-973.7"/>
+<text xml:space="preserve" text-anchor="middle" x="159.48" y="-957.1" font-family="Helvetica,sans-Serif" font-size="14.00">Leer:</text>
+<text xml:space="preserve" text-anchor="middle" x="159.48" y="-940.3" font-family="Helvetica,sans-Serif" font-size="14.00">num1 = parseInt(prompt(...))</text>
+<text xml:space="preserve" text-anchor="middle" x="159.48" y="-923.5" font-family="Helvetica,sans-Serif" font-size="14.00">num2 = parseInt(prompt(...))</text>
+<text xml:space="preserve" text-anchor="middle" x="159.48" y="-906.7" font-family="Helvetica,sans-Serif" font-size="14.00">num3 = parseInt(prompt(...))</text>
+</g>
+<!-- start&#45;&gt;input -->
+<g id="edge1" class="edge">
+<title>start-&gt;input</title>
+<path fill="none" stroke="black" d="M159.48,-1010.23C159.48,-1003 159.48,-994.23 159.48,-985.3"/>
+<polygon fill="black" stroke="black" points="162.98,-985.53 159.48,-975.53 155.98,-985.53 162.98,-985.53"/>
+</g>
+<!-- decAll -->
+<g id="node3" class="node">
+<title>decAll</title>
+<polygon fill="none" stroke="black" points="159.48,-861.5 22.46,-819.9 159.48,-778.3 296.5,-819.9 159.48,-861.5"/>
+<text xml:space="preserve" text-anchor="middle" x="159.48" y="-824.1" font-family="Helvetica,sans-Serif" font-size="14.00">¿num1 === num2</text>
+<text xml:space="preserve" text-anchor="middle" x="159.48" y="-807.3" font-family="Helvetica,sans-Serif" font-size="14.00">y num2 === num3?</text>
+</g>
+<!-- input&#45;&gt;decAll -->
+<g id="edge2" class="edge">
+<title>input-&gt;decAll</title>
+<path fill="none" stroke="black" d="M159.48,-898.03C159.48,-890.06 159.48,-881.49 159.48,-873.07"/>
+<polygon fill="black" stroke="black" points="162.98,-873.26 159.48,-863.26 155.98,-873.26 162.98,-873.26"/>
+</g>
+<!-- logIgual -->
+<g id="node4" class="node">
+<title>logIgual</title>
+<polygon fill="none" stroke="black" points="260.96,-624.3 0,-624.3 0,-582.7 260.96,-582.7 260.96,-624.3"/>
+<text xml:space="preserve" text-anchor="middle" x="130.48" y="-607.7" font-family="Helvetica,sans-Serif" font-size="14.00">console.log("Los números son iguales",</text>
+<text xml:space="preserve" text-anchor="middle" x="130.48" y="-590.9" font-family="Helvetica,sans-Serif" font-size="14.00"> num1, num2, num3)</text>
+</g>
+<!-- decAll&#45;&gt;logIgual -->
+<g id="edge3" class="edge">
+<title>decAll-&gt;logIgual</title>
+<path fill="none" stroke="black" d="M154.16,-779.58C148.57,-738.24 139.88,-674.01 134.73,-635.92"/>
+<polygon fill="black" stroke="black" points="138.2,-635.47 133.39,-626.03 131.26,-636.41 138.2,-635.47"/>
+<text xml:space="preserve" text-anchor="middle" x="159.58" y="-747.7" font-family="Helvetica,sans-Serif" font-size="14.00">Sí</text>
+</g>
+<!-- decMayor1 -->
+<g id="node6" class="node">
+<title>decMayor1</title>
+<polygon fill="none" stroke="black" points="301.48,-725.5 172.63,-683.9 301.48,-642.3 430.33,-683.9 301.48,-725.5"/>
+<text xml:space="preserve" text-anchor="middle" x="301.48" y="-688.1" font-family="Helvetica,sans-Serif" font-size="14.00">¿num1 &gt;= num2</text>
+<text xml:space="preserve" text-anchor="middle" x="301.48" y="-671.3" font-family="Helvetica,sans-Serif" font-size="14.00">y num1 &gt;= num3?</text>
+</g>
+<!-- decAll&#45;&gt;decMayor1 -->
+<g id="edge5" class="edge">
+<title>decAll-&gt;decMayor1</title>
+<path fill="none" stroke="black" d="M192.41,-787.82C212.81,-768.58 239.16,-743.71 260.85,-723.25"/>
+<polygon fill="black" stroke="black" points="263.24,-725.8 268.11,-716.39 258.44,-720.71 263.24,-725.8"/>
+<text xml:space="preserve" text-anchor="middle" x="247.93" y="-747.7" font-family="Helvetica,sans-Serif" font-size="14.00">No</text>
+</g>
+<!-- end -->
+<g id="node5" class="node">
+<title>end</title>
+<ellipse fill="none" stroke="black" cx="124.48" cy="-28.45" rx="24.45" ry="24.45"/>
+<ellipse fill="none" stroke="black" cx="124.48" cy="-28.45" rx="28.45" ry="28.45"/>
+<text xml:space="preserve" text-anchor="middle" x="124.48" y="-24.25" font-family="Helvetica,sans-Serif" font-size="14.00">Fin</text>
+</g>
+<!-- logIgual&#45;&gt;end -->
+<g id="edge4" class="edge">
+<title>logIgual-&gt;end</title>
+<path fill="none" stroke="black" d="M126.66,-582.39C121.38,-552.76 112.48,-495.58 112.48,-446.5 112.48,-446.5 112.48,-446.5 112.48,-130.5 112.48,-109.83 114.99,-86.93 117.71,-68.17"/>
+<polygon fill="black" stroke="black" points="121.17,-68.71 119.23,-58.29 114.25,-67.64 121.17,-68.71"/>
+</g>
+<!-- decMayor2 -->
+<g id="node7" class="node">
+<title>decMayor2</title>
+<polygon fill="none" stroke="black" points="301.48,-564.7 172.63,-523.1 301.48,-481.5 430.33,-523.1 301.48,-564.7"/>
+<text xml:space="preserve" text-anchor="middle" x="301.48" y="-527.3" font-family="Helvetica,sans-Serif" font-size="14.00">¿num2 &gt;= num1</text>
+<text xml:space="preserve" text-anchor="middle" x="301.48" y="-510.5" font-family="Helvetica,sans-Serif" font-size="14.00">y num2 &gt;= num3?</text>
+</g>
+<!-- decMayor1&#45;&gt;decMayor2 -->
+<g id="edge10" class="edge">
+<title>decMayor1-&gt;decMayor2</title>
+<path fill="none" stroke="black" d="M301.48,-642.01C301.48,-622.08 301.48,-597.88 301.48,-576.61"/>
+<polygon fill="black" stroke="black" points="304.98,-576.65 301.48,-566.65 297.98,-576.65 304.98,-576.65"/>
+<text xml:space="preserve" text-anchor="middle" x="310.43" y="-599.3" font-family="Helvetica,sans-Serif" font-size="14.00">No</text>
+</g>
+<!-- setMayor1 -->
+<g id="node8" class="node">
+<title>setMayor1</title>
+<polygon fill="none" stroke="black" points="578.42,-463.5 472.54,-463.5 472.54,-427.5 578.42,-427.5 578.42,-463.5"/>
+<text xml:space="preserve" text-anchor="middle" x="525.48" y="-441.3" font-family="Helvetica,sans-Serif" font-size="14.00">mayor = num1</text>
+</g>
+<!-- decMayor1&#45;&gt;setMayor1 -->
+<g id="edge6" class="edge">
+<title>decMayor1-&gt;setMayor1</title>
+<path fill="none" stroke="black" d="M339.61,-654.22C368.57,-631.53 408.55,-598.19 439.48,-564.7 466.27,-535.7 492.26,-498.3 508.52,-473.42"/>
+<polygon fill="black" stroke="black" points="511.37,-475.47 513.85,-465.17 505.49,-471.67 511.37,-475.47"/>
+<text xml:space="preserve" text-anchor="middle" x="428.3" y="-599.3" font-family="Helvetica,sans-Serif" font-size="14.00">Sí</text>
+</g>
+<!-- setMayor2 -->
+<g id="node12" class="node">
+<title>setMayor2</title>
+<polygon fill="none" stroke="black" points="340.42,-409.5 234.54,-409.5 234.54,-373.5 340.42,-373.5 340.42,-409.5"/>
+<text xml:space="preserve" text-anchor="middle" x="287.48" y="-387.3" font-family="Helvetica,sans-Serif" font-size="14.00">mayor = num2</text>
+</g>
+<!-- decMayor2&#45;&gt;setMayor2 -->
+<g id="edge11" class="edge">
+<title>decMayor2-&gt;setMayor2</title>
+<path fill="none" stroke="black" d="M297.2,-482.51C295.06,-462.7 292.52,-439.17 290.57,-421.13"/>
+<polygon fill="black" stroke="black" points="294.08,-420.97 289.52,-411.41 287.12,-421.72 294.08,-420.97"/>
+<text xml:space="preserve" text-anchor="middle" x="303.46" y="-441.3" font-family="Helvetica,sans-Serif" font-size="14.00">Sí</text>
+</g>
+<!-- setMayor3 -->
+<g id="node16" class="node">
+<title>setMayor3</title>
+<polygon fill="none" stroke="black" points="533.42,-409.5 427.54,-409.5 427.54,-373.5 533.42,-373.5 533.42,-409.5"/>
+<text xml:space="preserve" text-anchor="middle" x="480.48" y="-387.3" font-family="Helvetica,sans-Serif" font-size="14.00">mayor = num3</text>
+</g>
+<!-- decMayor2&#45;&gt;setMayor3 -->
+<g id="edge15" class="edge">
+<title>decMayor2-&gt;setMayor3</title>
+<path fill="none" stroke="black" d="M340.76,-493.66C372.61,-470.6 417.01,-438.45 447.15,-416.63"/>
+<polygon fill="black" stroke="black" points="449.13,-419.52 455.17,-410.83 445.02,-413.86 449.13,-419.52"/>
+<text xml:space="preserve" text-anchor="middle" x="436.54" y="-441.3" font-family="Helvetica,sans-Serif" font-size="14.00">No</text>
+</g>
+<!-- decMed1 -->
+<g id="node9" class="node">
+<title>decMed1</title>
+<polygon fill="none" stroke="black" points="789.48,-336.5 666.82,-318.5 789.48,-300.5 912.14,-318.5 789.48,-336.5"/>
+<text xml:space="preserve" text-anchor="middle" x="789.48" y="-314.3" font-family="Helvetica,sans-Serif" font-size="14.00">¿num2 &gt;= num3?</text>
+</g>
+<!-- setMayor1&#45;&gt;decMed1 -->
+<g id="edge7" class="edge">
+<title>setMayor1-&gt;decMed1</title>
+<path fill="none" stroke="black" d="M562.19,-427.12C612.05,-403.51 700.77,-361.51 751.36,-337.55"/>
+<polygon fill="black" stroke="black" points="752.64,-340.82 760.18,-333.38 749.64,-334.49 752.64,-340.82"/>
+</g>
+<!-- setMed1a -->
+<g id="node10" class="node">
+<title>setMed1a</title>
+<polygon fill="none" stroke="black" points="746.81,-247.7 640.15,-247.7 640.15,-206.1 746.81,-206.1 746.81,-247.7"/>
+<text xml:space="preserve" text-anchor="middle" x="693.48" y="-231.1" font-family="Helvetica,sans-Serif" font-size="14.00">medio = num2</text>
+<text xml:space="preserve" text-anchor="middle" x="693.48" y="-214.3" font-family="Helvetica,sans-Serif" font-size="14.00">menor = num3</text>
+</g>
+<!-- decMed1&#45;&gt;setMed1a -->
+<g id="edge8" class="edge">
+<title>decMed1-&gt;setMed1a</title>
+<path fill="none" stroke="black" d="M773.63,-302.71C760.02,-290.01 740.04,-271.36 723.43,-255.86"/>
+<polygon fill="black" stroke="black" points="725.91,-253.39 716.21,-249.12 721.13,-258.5 725.91,-253.39"/>
+<text xml:space="preserve" text-anchor="middle" x="758.64" y="-269.9" font-family="Helvetica,sans-Serif" font-size="14.00">Sí</text>
+</g>
+<!-- setMed1b -->
+<g id="node11" class="node">
+<title>setMed1b</title>
+<polygon fill="none" stroke="black" points="871.81,-247.7 765.15,-247.7 765.15,-206.1 871.81,-206.1 871.81,-247.7"/>
+<text xml:space="preserve" text-anchor="middle" x="818.48" y="-231.1" font-family="Helvetica,sans-Serif" font-size="14.00">medio = num3</text>
+<text xml:space="preserve" text-anchor="middle" x="818.48" y="-214.3" font-family="Helvetica,sans-Serif" font-size="14.00">menor = num2</text>
+</g>
+<!-- decMed1&#45;&gt;setMed1b -->
+<g id="edge9" class="edge">
+<title>decMed1-&gt;setMed1b</title>
+<path fill="none" stroke="black" d="M794.8,-301.07C798.62,-289.27 803.88,-273.01 808.47,-258.81"/>
+<polygon fill="black" stroke="black" points="811.76,-260.03 811.51,-249.44 805.1,-257.87 811.76,-260.03"/>
+<text xml:space="preserve" text-anchor="middle" x="814.66" y="-269.9" font-family="Helvetica,sans-Serif" font-size="14.00">No</text>
+</g>
+<!-- out -->
+<g id="node20" class="node">
+<title>out</title>
+<polygon fill="none" stroke="black" points="576.29,-169.1 310.67,-169.1 310.67,-93.9 576.29,-93.9 576.29,-169.1"/>
+<text xml:space="preserve" text-anchor="middle" x="443.48" y="-152.5" font-family="Helvetica,sans-Serif" font-size="14.00">console.log("Orden de mayor a menor:",</text>
+<text xml:space="preserve" text-anchor="middle" x="443.48" y="-135.7" font-family="Helvetica,sans-Serif" font-size="14.00"> mayor, medio, menor)</text>
+<text xml:space="preserve" text-anchor="middle" x="443.48" y="-118.9" font-family="Helvetica,sans-Serif" font-size="14.00">console.log("Orden de menor a mayor:",</text>
+<text xml:space="preserve" text-anchor="middle" x="443.48" y="-102.1" font-family="Helvetica,sans-Serif" font-size="14.00"> menor, medio, mayor)</text>
+</g>
+<!-- setMed1a&#45;&gt;out -->
+<g id="edge19" class="edge">
+<title>setMed1a-&gt;out</title>
+<path fill="none" stroke="black" d="M639.85,-205.87C614.5,-196.4 583.27,-184.73 553.22,-173.5"/>
+<polygon fill="black" stroke="black" points="554.67,-170.31 544.08,-170.09 552.22,-176.86 554.67,-170.31"/>
+</g>
+<!-- setMed1b&#45;&gt;out -->
+<g id="edge20" class="edge">
+<title>setMed1b-&gt;out</title>
+<path fill="none" stroke="black" d="M764.94,-208.79C761.75,-207.85 758.58,-206.95 755.48,-206.1 700.99,-191.14 640.65,-176.46 587.67,-164.21"/>
+<polygon fill="black" stroke="black" points="588.48,-160.8 577.95,-161.97 586.91,-167.63 588.48,-160.8"/>
+</g>
+<!-- decMed2 -->
+<g id="node13" class="node">
+<title>decMed2</title>
+<polygon fill="none" stroke="black" points="263.48,-336.5 140.82,-318.5 263.48,-300.5 386.14,-318.5 263.48,-336.5"/>
+<text xml:space="preserve" text-anchor="middle" x="263.48" y="-314.3" font-family="Helvetica,sans-Serif" font-size="14.00">¿num1 &gt;= num3?</text>
+</g>
+<!-- setMayor2&#45;&gt;decMed2 -->
+<g id="edge12" class="edge">
+<title>setMayor2-&gt;decMed2</title>
+<path fill="none" stroke="black" d="M281.67,-373.32C278.98,-365.35 275.71,-355.69 272.7,-346.77"/>
+<polygon fill="black" stroke="black" points="276.07,-345.83 269.56,-337.48 269.44,-348.07 276.07,-345.83"/>
+</g>
+<!-- setMed2a -->
+<g id="node14" class="node">
+<title>setMed2a</title>
+<polygon fill="none" stroke="black" points="246.81,-247.7 140.15,-247.7 140.15,-206.1 246.81,-206.1 246.81,-247.7"/>
+<text xml:space="preserve" text-anchor="middle" x="193.48" y="-231.1" font-family="Helvetica,sans-Serif" font-size="14.00">medio = num1</text>
+<text xml:space="preserve" text-anchor="middle" x="193.48" y="-214.3" font-family="Helvetica,sans-Serif" font-size="14.00">menor = num3</text>
+</g>
+<!-- decMed2&#45;&gt;setMed2a -->
+<g id="edge13" class="edge">
+<title>decMed2-&gt;setMed2a</title>
+<path fill="none" stroke="black" d="M251.29,-301.9C241.62,-289.52 227.84,-271.89 216.16,-256.94"/>
+<polygon fill="black" stroke="black" points="219.06,-254.96 210.15,-249.24 213.55,-259.27 219.06,-254.96"/>
+<text xml:space="preserve" text-anchor="middle" x="243.31" y="-269.9" font-family="Helvetica,sans-Serif" font-size="14.00">Sí</text>
+</g>
+<!-- setMed2b -->
+<g id="node15" class="node">
+<title>setMed2b</title>
+<polygon fill="none" stroke="black" points="371.81,-247.7 265.15,-247.7 265.15,-206.1 371.81,-206.1 371.81,-247.7"/>
+<text xml:space="preserve" text-anchor="middle" x="318.48" y="-231.1" font-family="Helvetica,sans-Serif" font-size="14.00">medio = num3</text>
+<text xml:space="preserve" text-anchor="middle" x="318.48" y="-214.3" font-family="Helvetica,sans-Serif" font-size="14.00">menor = num1</text>
+</g>
+<!-- decMed2&#45;&gt;setMed2b -->
+<g id="edge14" class="edge">
+<title>decMed2-&gt;setMed2b</title>
+<path fill="none" stroke="black" d="M273.31,-301.48C280.74,-289.38 291.16,-272.41 300.12,-257.82"/>
+<polygon fill="black" stroke="black" points="302.99,-259.83 305.24,-249.48 297.02,-256.17 302.99,-259.83"/>
+<text xml:space="preserve" text-anchor="middle" x="303.22" y="-269.9" font-family="Helvetica,sans-Serif" font-size="14.00">No</text>
+</g>
+<!-- setMed2a&#45;&gt;out -->
+<g id="edge21" class="edge">
+<title>setMed2a-&gt;out</title>
+<path fill="none" stroke="black" d="M247.11,-205.87C272.46,-196.4 303.69,-184.73 333.74,-173.5"/>
+<polygon fill="black" stroke="black" points="334.74,-176.86 342.88,-170.09 332.29,-170.31 334.74,-176.86"/>
+</g>
+<!-- setMed2b&#45;&gt;out -->
+<g id="edge22" class="edge">
+<title>setMed2b-&gt;out</title>
+<path fill="none" stroke="black" d="M345.6,-205.64C357.21,-196.97 371.24,-186.48 385,-176.2"/>
+<polygon fill="black" stroke="black" points="386.86,-179.18 392.77,-170.39 382.67,-173.57 386.86,-179.18"/>
+</g>
+<!-- decMed3 -->
+<g id="node17" class="node">
+<title>decMed3</title>
+<polygon fill="none" stroke="black" points="526.48,-336.5 403.82,-318.5 526.48,-300.5 649.14,-318.5 526.48,-336.5"/>
+<text xml:space="preserve" text-anchor="middle" x="526.48" y="-314.3" font-family="Helvetica,sans-Serif" font-size="14.00">¿num1 &gt;= num2?</text>
+</g>
+<!-- setMayor3&#45;&gt;decMed3 -->
+<g id="edge16" class="edge">
+<title>setMayor3-&gt;decMed3</title>
+<path fill="none" stroke="black" d="M491.61,-373.32C497.22,-364.67 504.12,-354.02 510.3,-344.48"/>
+<polygon fill="black" stroke="black" points="513.07,-346.64 515.57,-336.35 507.19,-342.84 513.07,-346.64"/>
+</g>
+<!-- setMed3a -->
+<g id="node18" class="node">
+<title>setMed3a</title>
+<polygon fill="none" stroke="black" points="496.81,-247.7 390.15,-247.7 390.15,-206.1 496.81,-206.1 496.81,-247.7"/>
+<text xml:space="preserve" text-anchor="middle" x="443.48" y="-231.1" font-family="Helvetica,sans-Serif" font-size="14.00">medio = num1</text>
+<text xml:space="preserve" text-anchor="middle" x="443.48" y="-214.3" font-family="Helvetica,sans-Serif" font-size="14.00">menor = num2</text>
+</g>
+<!-- decMed3&#45;&gt;setMed3a -->
+<g id="edge17" class="edge">
+<title>decMed3-&gt;setMed3a</title>
+<path fill="none" stroke="black" d="M512.4,-302.3C500.69,-289.67 483.72,-271.34 469.54,-256.04"/>
+<polygon fill="black" stroke="black" points="472.4,-253.97 463.03,-249.01 467.26,-258.73 472.4,-253.97"/>
+<text xml:space="preserve" text-anchor="middle" x="500.97" y="-269.9" font-family="Helvetica,sans-Serif" font-size="14.00">Sí</text>
+</g>
+<!-- setMed3b -->
+<g id="node19" class="node">
+<title>setMed3b</title>
+<polygon fill="none" stroke="black" points="621.81,-247.7 515.15,-247.7 515.15,-206.1 621.81,-206.1 621.81,-247.7"/>
+<text xml:space="preserve" text-anchor="middle" x="568.48" y="-231.1" font-family="Helvetica,sans-Serif" font-size="14.00">medio = num2</text>
+<text xml:space="preserve" text-anchor="middle" x="568.48" y="-214.3" font-family="Helvetica,sans-Serif" font-size="14.00">menor = num1</text>
+</g>
+<!-- decMed3&#45;&gt;setMed3b -->
+<g id="edge18" class="edge">
+<title>decMed3-&gt;setMed3b</title>
+<path fill="none" stroke="black" d="M533.99,-301.48C539.61,-289.49 547.46,-272.74 554.26,-258.24"/>
+<polygon fill="black" stroke="black" points="557.25,-260.1 558.33,-249.56 550.92,-257.13 557.25,-260.1"/>
+<text xml:space="preserve" text-anchor="middle" x="558.94" y="-269.9" font-family="Helvetica,sans-Serif" font-size="14.00">No</text>
+</g>
+<!-- setMed3a&#45;&gt;out -->
+<g id="edge23" class="edge">
+<title>setMed3a-&gt;out</title>
+<path fill="none" stroke="black" d="M443.48,-205.64C443.48,-198.25 443.48,-189.55 443.48,-180.77"/>
+<polygon fill="black" stroke="black" points="446.98,-180.81 443.48,-170.81 439.98,-180.81 446.98,-180.81"/>
+</g>
+<!-- setMed3b&#45;&gt;out -->
+<g id="edge24" class="edge">
+<title>setMed3b-&gt;out</title>
+<path fill="none" stroke="black" d="M541.36,-205.64C529.75,-196.97 515.72,-186.48 501.96,-176.2"/>
+<polygon fill="black" stroke="black" points="504.29,-173.57 494.19,-170.39 500.1,-179.18 504.29,-173.57"/>
+</g>
+<!-- out&#45;&gt;end -->
+<g id="edge25" class="edge">
+<title>out-&gt;end</title>
+<path fill="none" stroke="black" d="M326.51,-93.45C268.77,-75.16 203.01,-54.33 162.62,-41.53"/>
+<polygon fill="black" stroke="black" points="163.72,-38.21 153.13,-38.53 161.6,-44.88 163.72,-38.21"/>
+</g>
+</g>
+</svg>
