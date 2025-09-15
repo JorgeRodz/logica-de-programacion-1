@@ -1,5 +1,5 @@
 # 🧠 logica-de-programacion-1 🧑‍💻
-Repositorio para la practica "35.4 - SA-PLD1 - Práctica de Comparación de Números"
+Generation Mexico - Corte 58 - Repositorio para la practica "35.4 - SA-PLD1 - Práctica de Comparación de Números"
 
 ## 🗣️ Descripción del problema 🧐
 - Crear un programa en Javascript que realice lo siguiente:
